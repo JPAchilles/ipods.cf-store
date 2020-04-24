@@ -17,9 +17,25 @@ body {
     text-align:center;
     font-size:108px;
 }
+.bodylink:link {
+  text-decoration:none;
+  color:#4284FF;
+}
+.bodylink:visited {
+  text-decoration:none;
+  color:#4284FF;
+}
+.bodylink:hover {
+  text-decoration:none;
+  color:#599c00;
+}
+.bodylink:active {
+  text-decoration:underline;
+  color:gold;
+}
 .navbar {
   display: block;
-  padding: 1em;
+  padding: 0em;
   top:0;
   text-align:center;
   font-size:calc(12px + 2vmin);
